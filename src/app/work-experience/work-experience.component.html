@@ -1,0 +1,13 @@
+<h2>Proyectos Académicos</h2>
+
+<div *ngFor="let project of projects">
+
+  <h3>{{ project.title }}</h3>
+
+  <ul>
+    <li *ngFor="let item of project.items">
+      {{ item }}
+    </li>
+  </ul>
+
+</div>

@@ -1,0 +1,24 @@
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  height: 10px;
+  background: #ddd;
+}
+
+.fill {
+  height: 10px;
+  background: #e74c3c;
+}
+
+.w95 { width: 95%; }
+.w85 { width: 85%; }
+.w80 { width: 80%; }
+.w75 { width: 75%; }
+.w70 { width: 70%; }

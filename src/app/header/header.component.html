@@ -1,0 +1,17 @@
+<div class="header-container" *ngIf="cv">
+  <div class="header-left">
+    <h1>{{ cv.name }}</h1>
+    <p>{{ cv.profile }}</p>
+  </div>
+
+  <img
+    src="https://res.cloudinary.com/dwhh2yudk/image/upload/v1780519061/WhatsApp_Image_2026-06-03_at_2.37.04_PM_uva2oz.jpg"
+    alt="Arturo Carrera"
+  >
+
+  <div class="header-contact">
+    <p>{{ cv.email }} ✉</p>
+    <p>{{ cv.phone }} ☎</p>
+    <p>{{ cv.city }} 📍</p>
+  </div>
+</div>

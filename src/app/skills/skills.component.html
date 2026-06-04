@@ -1,0 +1,12 @@
+<h2>Habilidades Técnicas</h2>
+
+<div class="skill" *ngFor="let skill of skills">
+  <span>{{ skill.name }}</span>
+
+  <div class="bar">
+    <div
+      class="fill"
+      [style.width.%]="skill.level">
+    </div>
+  </div>
+</div>
